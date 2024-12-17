@@ -28,7 +28,7 @@ header {
   text-decoration: none;
 }
 
-.header__link_active {
+.header__link {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -45,12 +45,12 @@ header {
   line-height: 24px;
 }
 
-.address__item-phone {
+.address__item {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-.address__item-email {
+.address__item {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -154,7 +154,7 @@ header {
   min-height: 596px;
   width: 334px;
   position: relative;
-  z-index: -2;
+  z-index: 0;
   background-size: cover;
   background-position: center center;
 }
@@ -171,7 +171,7 @@ header {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.card__titlecard__text {
+.card__title-card__text {
   text-transform: uppercase;
   text-decoration: underline;
   display: flex;
@@ -194,6 +194,10 @@ header {
   padding: 48px 40px 48px 40px;
   font-size: 20px;
   line-height: 24px;
+}
+
+.card-link {
+  text-decoration: none;
 }
 
 .about {
@@ -261,7 +265,7 @@ header {
   height: 48px;
 }
 
-.footer-menu-spisok {
+.footer-menu-list {
   list-style: none;
   text-align: center;
 }
@@ -273,7 +277,7 @@ header {
   line-height: 24px;
 }
 
-.active-link-footer-menu {
+.not-active-link-footer-menu {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
