@@ -50,11 +50,6 @@ header {
   text-underline-offset: 4px;
 }
 
-.address__item {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
 .header__logo {
   justify-self: left;
 }
